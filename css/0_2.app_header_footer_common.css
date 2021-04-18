@@ -1,0 +1,147 @@
+body, ul, li, a, p , h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'NanumSquareRound';
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url(../fonts/NanumSquareRoundL.ttf) format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url(../fonts/NanumSquareRoundR.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url(../fonts/NanumSquareRoundB.ttf) format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url(../fonts/NanumSquareRoundEB.ttf) format('truetype');
+    font-weight: 900;
+}
+
+body {width: 480px;}
+.wrap {
+    width: 480px;
+    overflow: hidden;
+}
+
+/* 탑버튼 */
+.top_btn{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 999;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 60px;
+    box-shadow: 0 0 3px #999;
+}
+
+/* 헤더 */
+.header{
+    width: 100%;
+    overflow: hidden;
+}
+.h_top{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    padding: 0 20px;
+    box-sizing: border-box;
+    /* background: cornflowerblue; */
+}
+.logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 5px 0;
+}
+.logo > a > img {
+    width: 100%;
+}
+.hamburg{
+    float: right;
+    margin: 21px 0;
+}
+.line{
+    width: 18px;
+    height: 2px;
+    margin-bottom: 4px;
+    background: black;
+}
+.menu{
+    width: 100%;
+    overflow: hidden;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.menu_li{
+    float: left;
+    padding: 13px 28px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+.cart{
+    float: right;
+    width: 40px;
+    margin: 8px 0;
+}
+.cart > img {
+    width: 100%;
+}
+
+/* 푸터 */
+.footer{
+    width: 100%;
+    height: 160px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #efefef;
+}
+.f_l{
+    float: left;
+    height: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.f_l > ul {overflow: hidden;}
+.f_l_li{
+    float: left;
+    padding: 9px 5px;
+    box-sizing: border-box;
+}
+.f_l > p {
+    margin-top: 10px;
+    color: #999;
+}
+.f_l_li2{
+    float: left;
+    padding: 8px 5px;
+    box-sizing: border-box;
+}
+.f_r{
+    float: right;
+}
+.f_r > a > img {
+    width: 70px;
+}

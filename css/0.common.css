@@ -1,0 +1,40 @@
+body, ul, li, a, p , h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'NanumSquareRound';
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.m_0{margin: 0;}
+.p_0{padding: 0;}
+
+.wrap{
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url(../fonts/NanumSquareRoundL.ttf) format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url(../fonts/NanumSquareRoundR.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url(../fonts/NanumSquareRoundB.ttf) format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url(../fonts/NanumSquareRoundEB.ttf) format('truetype');
+    font-weight: 900;
+}

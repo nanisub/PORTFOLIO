@@ -1,0 +1,93 @@
+.m3_header{
+    width: 100%;
+    overflow: hidden;
+}
+.m3_h_top{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    padding: 0 20px;
+    box-sizing: border-box;
+    /* background: aliceblue; */
+}
+.return{
+    float: left;
+    width: 30px;
+    margin: 13px 0;
+}
+.m3_logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.return > a > img,
+.m3_logo > a > img {
+    width: 100%;
+}
+
+/* 원산지 */
+.ingre_sec{
+    width: 100%;
+    height: 900px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+.tit_sec{
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+.tit_sec > p {
+    font-size: 22px;
+    font-weight: 900;
+    float: left;
+}
+.tit_sec > img {
+    float: right;
+    width: 25px;
+    height: 25px;
+}
+.m_ingre_box{
+    width: calc((100% - 40px) / 2);
+    margin: 10px;
+    text-align: center;
+    float: left;
+}
+.m_ingre_box > img {
+    width: 100%;
+}
+.m_ingre_box > p {
+    font-size: 18px;
+    font-weight: 900;
+}
+.more_btn{
+    width: 80px;
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* 배너 */
+.m_banner_sec {
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.m_banner_sec > a > img {
+    width: 100%;
+    font-size: 0;
+    margin-top: 10px;
+}

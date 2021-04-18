@@ -1,0 +1,129 @@
+/* 본문타이틀 */
+.tit_sec{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.nav{
+    float: right;
+    overflow: hidden;
+}
+.nav_li{
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 0 5px 10px;
+}
+.tit_menu{
+    font-size: 28px;
+    font-weight: 900;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.item_search{
+    position: absolute;
+    overflow: hidden;
+    top: 9px;
+    left: 180px;
+}
+.item_search_icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}
+.item_search_icon > img {
+    width: 100%;
+    height: 100%;
+}    
+.item_search > input {
+    width: 160px;
+    height: 30px;
+    outline: none;
+    padding: 3px;
+    padding-left: 29px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+/* 원산지재료 */
+.main_sec{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.item_box{
+    width: calc((100% - 160px) / 4);
+    float: left;
+    padding: 10px 20px;
+}
+.item_box > img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+.item_box > img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.item_name{
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    margin: 8px 0;
+}
+.item_wd{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* 이벤트배너 */
+.w3_event_ban {
+    width: 100%;
+    overflow: hidden;
+    background: #f6f1e9;
+}
+.event_ban_container{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    font-size: 0;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+.pre_btn{
+    width: 70px;
+    height: 70px;
+    border-top: 8px solid #999;
+    border-left: 8px solid #999;
+    transform: translateY(-50%) rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+.w3_ban_box{
+    width: 940px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.w3_ban_box > img{
+    width: calc((100% - 120px) / 3);
+    margin: 20px;
+}
+.next_btn{
+    width: 70px;
+    height: 70px;
+    border-top: 8px solid #999;
+    border-right: 8px solid #999;
+    transform: translateY(-50%) rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 50px;
+}

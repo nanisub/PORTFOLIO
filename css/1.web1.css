@@ -1,0 +1,240 @@
+/* 레이어팝업 */
+.layer_popup {
+    width: 350px;
+    box-shadow: 0 0 5px #999;
+    position: fixed;
+    top: 110px;
+    left: 140px;
+    z-index: 999;
+    background: #fff;
+}
+.popup {
+    padding: 10px 10px 0;
+    box-sizing: border-box;
+}
+.big_ban {
+    width: 100%;
+}
+.big_ban > img {
+    width: 100%;
+}
+.mini_ban_outer{
+    width: 100%;
+    overflow: hidden;
+}
+.min_ban{
+    float: left;
+    width: calc((100% - 10px) / 3);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.min_ban > img {
+    width: 100%;
+}
+.pop_bot{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #888;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ddd;
+}
+.ck_box{
+    width: 17px;
+    height: 17px;
+    box-shadow: 0 0 2px rgb(117, 117, 117);
+    background: rgb(233, 233, 233);
+    margin: 6px;
+    float: left;
+    cursor: pointer;
+}
+.today_cl{
+    margin-right: 5px;
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+.close{
+    width: 50px;
+    height: 100%;
+    line-height: 30px;
+    float: right;
+    background: black;
+    padding: 0 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+label:hover {cursor: pointer;}
+
+
+/* 메인배너 */
+.main_ban{
+    width: 100%;
+    height: 590px;
+}
+.banner_outer{
+    width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0;
+    overflow-x: hidden;
+}
+.m_ban_l{
+    float: left;
+}
+.m_ban_r{
+    width: 1270px;
+    height: 584px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.ban_l_1{
+    width: 318px;
+    height: 146px;
+    background: url(../img/main_banner/main_banner1.jpg) no-repeat center / cover;
+}
+.ban_l_2{
+    width: 318px;
+    height: 146px;
+    background: url(../img/main_banner/main_banner2.jpg) no-repeat center / cover;
+}
+.ban_l_3{
+    width: 318px;
+    height: 146px;
+    background: url(../img/main_banner/main_banner3.jpg) no-repeat center / cover;
+}
+.ban_l_4{
+    width: 318px;
+    height: 146px;
+    background: url(../img/main_banner/main_banner4.jpg) no-repeat center / cover;
+}
+.ban_r1{
+    width: 100%;
+    height: 100%;
+    background: url(../img/main_banner/main_banner1.jpg) no-repeat center / cover;
+}
+.ban_r2{
+    width: 100%;
+    height: 100%;
+    background: url(../img/main_banner/main_banner2.jpg) no-repeat center / cover;
+}
+.ban_r3{
+    width: 100%;
+    height: 100%;
+    background: url(../img/main_banner/main_banner3.jpg) no-repeat center / cover;
+}
+.ban_r4{
+    width: 100%;
+    height: 100%;
+    background: url(../img/main_banner/main_banner4.jpg) no-repeat center / cover;
+}
+.ban_r {
+    width: 100%;
+    height: 100%;
+}
+.ban_r1, .ban_r2, .ban_r3, .ban_r4 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    /* display: none; */
+}
+.dot_box{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.dot{
+    width: 11px;
+    height: 11px;
+    background: #fff;
+    border-radius: 50%;
+    float: left;
+    margin: 0 5px;
+}
+.dot:hover {
+    background: #ddd;
+    cursor: pointer;
+}
+.active{
+    background: #ddd;
+}
+/* 주문 */
+.order{
+    width: 1200px;
+    height: 310px;
+    margin: 0 auto;
+}
+.order_img{
+    width: calc((80% - 60px) / 3);
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+    padding: 29px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.order_img > img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+.order_img:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.model {
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-size: 0;
+}
+.model > img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 미니배너1 */
+.mini_ban1{
+    width: 100%;
+    overflow: hidden;
+    background: #ddd;
+}
+.mini_ban1_outer{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.mini_b_box{
+    width: calc((100% - 480px) / 3);
+    margin: 80px;
+    box-sizing: border-box;
+    float: left;
+}
+.mini_b{
+    width: 100%;
+}
+
+/* 미니배너2 */
+.mini_ban2{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.m_b_2_box{
+    width: calc((100% - 480px) / 3);
+    margin: 30px 80px;
+    float: left;
+    overflow: hidden;
+}
+.mini_ban2_img{
+    width: 100%;
+    transition: all 0.3s;
+    transform: scale(1);
+}
+.m_b_2_box:hover .mini_ban2_img {
+    transform: scale(1.1);
+}
+.m_r_0{margin-right: 0;}

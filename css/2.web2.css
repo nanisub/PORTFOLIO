@@ -1,0 +1,211 @@
+/* 헤더 밑 메뉴 */
+.menuOFmenu{
+    width: 1300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.nav{
+    float: right;
+    overflow: hidden;
+}
+.nav_li{
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 0 5px 10px;
+}
+.tit_menu{
+    font-size: 28px;
+    font-weight: 900;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.s_menu{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.s_m_li{
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 18px;
+}
+.colored{
+    color: #0176b6;
+}
+
+/* 본문 */
+.container{
+    width: 1300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* 왼쪽세트 */
+.set_menu{
+    float: left;
+    width: 70%;
+    overflow: hidden;
+    background: rgb(88 165 205 / 63%);
+}
+.set_txt_box{
+    margin: 20px 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.set_m_ul{
+    overflow: hidden;
+    float: left;
+    color: #fff;
+}
+.set_m_li{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.set_m_li:hover {
+    color: #333;
+}
+.ingredient{
+    width: 90px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 5px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+.info_icon{
+    width: 17px;
+    height: 17px;
+    float: left;
+}
+.info_icon > img {
+    width: 100%;
+    padding-top: 3px;
+}
+.ingredient > a > p {
+    padding: 3px 0;
+    box-sizing: border-box;
+    float: left;
+}
+.set_box_outer{
+    width: 100%;
+    overflow: hidden;
+}
+.set_box{
+    width: 700px;
+    height: 220px;
+    background: #fff;
+    /* background: pink; */
+    box-shadow: 0 0 4px #666;
+    margin: 30px auto;
+    position: relative;
+}
+.set_hover{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.66);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.set_box:hover .set_hover{
+    display: block;
+    cursor: pointer;
+}
+.hover_p {
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.set_box:hover .hover_p {
+    color: #fff;
+}
+.set_img{
+    float: left;
+    width: 300px;
+    margin: 12px 10px;
+    font-size: 0;
+}
+.set_img > img {
+    width: 100%;
+}
+.set_txt{
+    float: right;
+    width: 380px;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.set_name{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.set_compo{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #999;
+}
+.piz_size{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #8c1717;
+}
+.piz_price{
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px 8px;
+}
+
+/* 오른쪽 선택영역 */
+select[class="menu_select"]{
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+}
+.select_sec{
+    float: right;
+    width: 30%;
+    height: 1686px;
+    background: rgb(0 118 180);
+}
+/* 나중에 자바스크립트로 픽스드 */
+/* .fix_box{
+    position: fixed;
+    top: 220px;
+    right: 220px;
+} */
+.menu_select{
+    width: 200px;
+    height: 35px;
+    margin: 40px 50px 20px;
+}
+.select_order {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: #8c1717;
+    color: #fff;
+    text-align: center;
+    margin: 0 50px;
+    padding: 6px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 700;
+}

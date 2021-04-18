@@ -1,0 +1,79 @@
+/* 타이틀 */
+.tit_box{
+    width: 100%;
+    overflow: hidden;
+}
+.tit_box > p {
+    font-size: 22px;
+    font-weight: 900;
+    float: left;
+}
+.m_set_order{
+    width: 115px;
+    height: 30px;
+    float: right;
+    background: #8c1717;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* 세트사진들 */
+.set_sec{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.m_set_box{
+    width: calc((100% - 80px) / 2);
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+.m_set_box > img {
+    width: 100%;
+}
+.piz_name, .piz_size, .piz_price, .ready_p {display: inline-block;}
+.piz_name{
+    height: 44px;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0;
+}
+.piz_size{
+    font-size: 20px;
+    font-weight: 600;
+    color: #8c1717;
+    margin: 0 5px;
+}
+.piz_price{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.ready_sec{
+    width: 100%;
+    overflow: hidden;
+}
+.ready_box{
+    width: 200px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-size: 0;
+    background: #f8f8f8;
+}
+.ready_box > img {
+    width: 70%;
+}
+.ready_p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #999;
+    margin: 10px 0;
+}

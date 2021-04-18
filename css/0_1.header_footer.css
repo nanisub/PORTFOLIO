@@ -1,0 +1,217 @@
+/* 탑버튼 */
+.top_btn{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 999;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 60px;
+    box-shadow: 0 0 3px #999;
+}
+/* 헤더 */
+.header {
+    width: 100%;
+    height: 111px;
+    min-width: 1080px;
+}
+.h_top{
+    width: 100%;
+    height: 32px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.h_top_outer{
+    float: right;
+    overflow: hidden;
+}
+.h_top_li{
+    float: left;
+    padding: 8px 15px;
+    font-size: 13px;
+}
+.global_icon{
+    width: 13px;
+    height: 13px;
+}
+.h_top_outer > ul li:nth-child(3) {
+    padding-right: 0;
+}
+.h_bot{
+    width: 100%;
+    height: 79px;
+    /* background: pink; */
+    padding: 0 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+.logo {
+    width: 200px;
+    height: 55px;
+    padding: 12px 0;
+    float: left;
+}
+.logo > a > img {
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    height: 100%;
+    float: left;
+    margin: 0 30px;
+}
+.menu_li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 28px 30px;
+}
+.menu_li:hover {
+    color: #0176b6;
+    cursor: pointer;
+}
+
+/* 메뉴100% */
+.menu_hover_outer{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    /* background: pink; */
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
+.menu_hover_inner{
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.menu_hov_L{
+    float: left;
+}
+.menu_hov_box{
+    float: left;
+}
+.hov_ul{
+    font-size: 15px;
+    font-weight: 800;
+    padding: 20px 30px 0;
+}
+.hov_L_ul{
+    float: left;
+}
+.hov_ul > li {
+    font-size: 15px;
+    font-weight: 200;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.hov_ul > li:nth-child(1) {
+    font-size: 15px;
+    font-weight: 800;
+}
+.hov_ul > li:nth-child(1):hover {
+    color: #0176b6; 
+    cursor: pointer;
+}
+.menu_hov_R{
+    float: left;
+    border-left: 1px solid #999;
+    margin-left: 10px;
+}
+
+.search{
+    position: absolute;
+    overflow: hidden;
+    right: 50px;
+}
+.search_icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 30px;
+    left: 8px;
+}
+.search_icon > img {
+    width: 100%;
+    height: 100%;
+}    
+.search > input {
+    width: 160px;
+    height: 30px;
+    outline: none;
+    padding: 3px;
+    padding-left: 32px;
+    box-sizing: border-box;
+    margin: 24px 0;
+    border: none;
+    border-bottom: 2px solid;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid #ddd;
+    color: rgb(124, 124, 124);
+}
+.footer_outer{
+    width: 1200px;
+    height: 100%;
+    overflow: hidden;
+    margin: 30px auto;
+}
+.f_l{
+    float: left;
+    width: 70%;
+}
+.f_logo {
+    width: 150px;
+    height: 50px;
+}
+.f_logo > a > img {
+    width: 100%;
+}
+.cal{
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+}
+.f_menu{
+    overflow: hidden;
+    padding: 15px 0 25px;
+}
+.f_m_li{
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 15px;
+}
+.adress > p{
+    padding: 4px 0;
+    font-weight: 200;
+}
+.f_r{
+    width: 30%;
+    height: 240px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+.sns{
+    width: 245px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.sns_img{
+    width: 40px;
+    margin-left: 5px;
+}
